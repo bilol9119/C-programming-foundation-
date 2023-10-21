@@ -34,7 +34,7 @@ void fill_array (int arr[], int len){
     printf("Oraliqni kiriting: ");
     scanf("%d%d", &start, &stop);
 
-    for(int i = 0; i < len; i++){
+    for(int i = 1; i < len; i++){
         arr[i] = rand() % (stop - start + 1) + start;
     }
 
